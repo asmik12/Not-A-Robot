@@ -13,7 +13,7 @@ const Login = () => {
 
     if (username === savedUsername && password === savedPassword) {
       alert('Login successful!');
-      navigate('/human-check');
+      navigate('/finger-captcha');
     } else {
       alert('Invalid username or password');
     }

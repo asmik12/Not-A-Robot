@@ -5,6 +5,8 @@ import Register from './components/Register';
 import Login from './components/Login';
 import HumanCheck from './components/HumanCheck';
 import Home from './components/Home';
+import Captcha from './components/CaptchaText';
+import FingerCaptcha from './components/CaptchaRotate';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
           <Route path="/" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/human-check" element={<HumanCheck />} />
+          <Route path="/captcha" element={<Captcha />} />
+          <Route path="/finger-captcha" element={<FingerCaptcha />} />
           <Route path="/home" element={<Home />} />
         </Routes>
       </div>

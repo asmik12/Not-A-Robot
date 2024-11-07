@@ -1,16 +1,25 @@
-// src/components/HumanCheck.js
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 const HumanCheck = () => {
   const [isHuman, setIsHuman] = useState(false);
   const navigate = useNavigate();
+  const siteKey = "6LcdWXgqAAAAAJRpvNVHuoZw1YmxbOyG-TyJDe-8"; // Replace with your reCAPTCHA site key
 
   const handleContinue = () => {
     if (isHuman) {
       navigate('/home');
     } else {
-      alert('Please confirm you are human');
+      alert('Please complete the CAPTCHA to continue.');
+    }
+  };
+
+  const handleCaptchaChange = (value) => {
+    if (value) {
+      setIsHuman(true);
+    } else {
+      setIsHuman(false);
     }
   };
 
@@ -18,12 +27,10 @@ const HumanCheck = () => {
     <div className="form">
       <h1>I'm a Human</h1>
       <div>
-        <input
-          type="checkbox"
-          checked={isHuman}
-          onChange={() => setIsHuman(!isHuman)}
-        />{' '}
-        <span>Confirm you're a human</span>
+        <ReCAPTCHA
+          sitekey={siteKey}
+          onChange={handleCaptchaChange}
+        />
       </div>
       <button onClick={handleContinue}>Continue</button>
     </div>
