@@ -4,6 +4,8 @@ Created for ECE M117 - Introduction to Computer Security (Fall 2024) taught by P
 
 A CAPTCHA-based authentication system designed to secure user login by preventing automated bot access. This system ensures that only human users can proceed, enhancing platform security.
 
+**Note:** This code is compatible with Node.js v16.
+
 ## Stakeholders
 - **End Users**: Ensure a secure and user-friendly experience.
 - **Developers**: Enhance CAPTCHA logic and integrate it into existing applications.
