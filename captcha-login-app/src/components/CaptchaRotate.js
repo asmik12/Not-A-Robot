@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import fingerImage from './fingerpoint.jpg'; // Adjust the path to where your finger.png is located
+import fingerImage from './fingerpoint.jpg'; // The path to where finger.png is located
 
 const FingerCaptcha = () => {
   const [rotation, setRotation] = useState(0); // Rotation angle in degrees
