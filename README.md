@@ -12,7 +12,7 @@ CAPTCHAs are widely used across the web to protect websites from bots and automa
 
 ## Collaborators 👥
 
-- [Asmi Kawatkar] (https://github.com/asmik12) 🚀
+- [Asmi Kawatkar](https://github.com/asmik12) 🚀
 - [Kelly Couvrette]🔧
 - [Bianca Mittu]🔒
 - [Lucy Zises] 🌍
