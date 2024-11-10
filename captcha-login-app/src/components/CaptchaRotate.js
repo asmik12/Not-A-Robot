@@ -19,6 +19,9 @@ const FingerCaptcha = () => {
 
   // Handle submit button click
   const handleSubmit = () => {
+    const currentValue = document.querySelector('input[type="range"]').value;
+    setRotation(parseInt(currentValue, 10));
+
     if (isCorrectRotation()) {
       alert('CAPTCHA verified!');
       navigate('/home'); // Redirect to home or another page on success
@@ -39,7 +42,7 @@ const FingerCaptcha = () => {
           marginBottom: '20px',
         }}
       >
-        <img src={fingerImage} alt="Pointing Finger" style={{ width: '100px', height: '100px' }} />
+        <img src={fingerImage} alt="Pointing Finger" style={{ width: '200px', height: '200px' }} />
       </div>
 
       <div style={{ marginBottom: '20px' }}>
