@@ -1,10 +1,6 @@
-# Not-A-Robot
+# Not-A-Robot: CAPTCHA Design, Security & Attacks 🤖🔐
 
 Created for ECE M117 - Introduction to Computer Security (Fall 2024) taught by Prof. Yuan Tian at UCLA.
-
-**Note:** This code is compatible with Node.js v16.
-
-# Not-A-Robot: CAPTCHA Design, Security & Attacks 🤖🔐
 
 ## Project Overview
 
@@ -16,10 +12,12 @@ CAPTCHAs are widely used across the web to protect websites from bots and automa
 
 ## Collaborators 👥
 
-- [Your Name] (Lead Developer) 🚀
-- [Collaborator 1 Name] (Role) 🔧
-- [Collaborator 2 Name] (Role) 🔒
-- [Additional collaborators as needed]
+- [Asmi Kawatkar] (https://github.com/asmik12) 🚀
+- [Kelly Couvrette]🔧
+- [Bianca Mittu]🔒
+- [Lucy Zises] 🌍
+- [Kenan Cackovic]💻
+- [Jon Paino]🛡️
 
 ## Potential Impacts 🌍
 
@@ -42,6 +40,8 @@ CAPTCHAs are widely used across the web to protect websites from bots and automa
 4. **Online Voting Systems** 🗳️: Ensuring that CAPTCHA mechanisms in online voting are secure and prevent fraudulent voting attempts.
 
 ## Installation ⚙️
+
+**Note:** This code is compatible with Node.js v16.
 
 To get started with this project locally, clone the repository and install the necessary dependencies:
 
