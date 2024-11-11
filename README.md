@@ -43,6 +43,10 @@ CAPTCHAs are widely used across the web to protect websites from bots and automa
 
 **Note:** This code is compatible with Node.js v16.
 
+To switch to v16 (assuming it is already installed in your system), execute the following:
+
+```nvm use 16```
+
 To get started with this project locally, clone the repository and install the necessary dependencies:
 
 ```bash
