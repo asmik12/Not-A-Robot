@@ -13,7 +13,8 @@ const Login = () => {
 
     if (username === savedUsername && password === savedPassword) {
       alert('Login successful!');
-      navigate('/finger-captcha');
+      //navigate('/finger-captcha'); //Uncomment this line and recomment the next line to change captcha
+      navigate('captcha');
     } else {
       alert('Invalid username or password');
     }

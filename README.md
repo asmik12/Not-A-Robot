@@ -48,4 +48,8 @@ To get started with this project locally, clone the repository and install the n
 ```bash
 git clone https://github.com/asmik12/Not-A-Robot.git
 cd Not-A-Robot
-# Install dependencies (example: pip install -r requirements.txt)
+cd captcha-login-app
+npm start
+```
+
+

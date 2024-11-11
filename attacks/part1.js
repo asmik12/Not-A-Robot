@@ -5,4 +5,5 @@
 //Individually paste the below two lines into the console (not together) to bypass the captcha.
 document.querySelector('input[type="range"]').value = 90;
 
-document.querySelector('button').click();   
+//Execute this line twice
+document.querySelector('button').click(); 
