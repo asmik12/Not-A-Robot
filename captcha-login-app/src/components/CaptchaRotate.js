@@ -19,6 +19,8 @@ const FingerCaptcha = () => {
 
   // Handle submit button click
   const handleSubmit = () => {
+    
+    //DEFENSE #1: Remove the 2 lines below
     const currentValue = document.querySelector('input[type="range"]').value;
     setRotation(parseInt(currentValue, 10));
 

@@ -6,7 +6,7 @@ const puppeteer = require('puppeteer');
   const page = await browser.newPage();
   
   // Navigate to the target CAPTCHA page
-  await page.goto('http://example.com/captcha-page');
+  await page.goto('https://refactored-goggles-x5r64r6q7pj9h97g-3000.app.github.dev/captcha');
 
   // Wait for the CAPTCHA element to load (adjust the selector as needed)
   await page.waitForSelector('.captcha-container');
