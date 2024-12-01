@@ -56,4 +56,18 @@ cd captcha-login-app
 npm start
 ```
 
+## Switching CAPTCHA Types ⚙️
+
+Navigate to captcha-login-app -> src -> Login.js and comment/uncomment lines 15-17 as necessary.
+E.g for Google's RECAPTCHA
+
+```bash
+navigate('/human-check');
+```
+
+E.g for our text-based CAPTCHA implementation
+```bash
+navigate('/captcha');
+```
+
 
